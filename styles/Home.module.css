@@ -31,6 +31,9 @@
   font-size: 1.8rem;
   padding-left: 0.3em;
 }
+.left h2 {
+  margin-bottom: 0;
+}
 .left .info {
   font-size: 1.2rem;
   margin-top: 5px;
@@ -69,7 +72,7 @@
   background-color: #228be6a8;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .container {
     flex-direction: column;
   }
