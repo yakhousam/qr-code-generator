@@ -46,8 +46,9 @@ const Home: NextPage = () => {
               type="text"
               onChange={handleOnChange}
               placeholder="Enter your url"
+              aria-describedby="info"
             />
-            <div className={styles.info}>
+            <div id="info" className={styles.info}>
               Your QR code will be generated automatically as you typing
             </div>
             <h2>Examples:</h2>
